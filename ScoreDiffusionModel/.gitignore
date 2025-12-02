@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# 忽略所有名为 MNIST 的文件夹（无论在哪一层）
+MNIST/
+**/MNIST/
+
+# 忽略测试 notebook
+test.ipynb
+
+# 忽略 Jupyter 临时目录
+*.ipynb_checkpoints/
